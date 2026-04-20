@@ -5,8 +5,8 @@ const qs = require("querystring");
 const app = express();
 app.use(express.json());
 
-const APP_NAME = "";
-const OWNER_ID = "";
+const APP_NAME = "Cruuzuid";
+const OWNER_ID = "y5tsaoFToV";
 const VERSION = "1.0";
 
 app.get("/", (_req, res) => {
